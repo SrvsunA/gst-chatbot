@@ -235,7 +235,32 @@ export default function Home() {
           ⚖️ Legal Disclaimer: This is an AI assistant. For official compliance
           advice, consult a Chartered Accountant.
         </p>
+      {/* ===== PRICING BUTTONS - ADD HERE ===== */}
+      <div className="pricing-hero mt-12 p-8 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-3xl text-white text-center max-w-2xl mx-auto">
+        <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          Ready for Unlimited GST Answers?
+        </h2>
+        <p className="text-xl mb-8 opacity-90">
+          Upgrade to Pro and never worry about GST again
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <a 
+            href="/pricing" 
+            className="bg-white text-indigo-600 px-8 py-4 rounded-2xl font-bold text-lg shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-300"
+          >
+            💎 Upgrade to Pro - ₹99/month
+          </a>
+          <a 
+            href="/pricing" 
+            className="border-2 border-white text-white px-8 py-4 rounded-2xl font-bold hover:bg-white hover:text-indigo-600 transition-all duration-300"
+          >
+            See All Plans
+          </a>
+        </div>
       </div>
+      </div>
+      {/* ===== END PRICING BUTTONS ===== */}
+      
     </main>
   );
 }
